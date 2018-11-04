@@ -19,6 +19,21 @@ Laravel is extensive and thorough. However, you can visit my channel [on Youtube
 
 If you want to learn a little more, you can visit [cafeycodigo.com](cafeycodigo.com).
 
+## Clone the repository
+
+* Go to [console.developers.google.com](https://console.developers.google.com/).
+* Create Google Drive Application
+* Go to credentials.
+* Search for Google Drive and Google+ APIs and enable both.
+* Define enviroment variables in .env file
+
+```
+GOOGLE_APP_ID=YourGoogleAppID
+GOOGLE_CLIENT_ID=YourGoogleClientID
+GOOGLE_CLIENT_SECRET=YourGoogleClientSecret
+GOOGLE_REDIRECT=http://127.0.0.1:8000/login/google/callback
+```
+
 ## Contributing
 
 Thank you for considering contributing to this project! You can send a email to  [hola@cafeycodigo.com](mailto:hola@cafeycodigo.com).
@@ -44,6 +59,21 @@ Laravel es accesible, potente, y proporciona las herramientas necesarias para ap
 Laravel es extensa y minuciosa. Sin embargo, puedes visitar mi canal [en Youtube](https://www.youtube.com/c/CaféyCódigo) y ver videos tutoriales sobre cómo funciona. Cada tutorial está disponible en español. Si deseas esto en inglés, puedes enviarme un correo electrónico y sugerir una traducción hecha por ti. :)
 
 Si deseas aprender un poco más, puedes visitar [cafeycodigo.com](cafeycodigo.com).
+
+## Clonar el repositorio
+
+* Ingresa a [console.developers.google.com](https://console.developers.google.com/).
+* Crea una aplicación de Google Drive
+* Ingresa al apartado de Credenciales.
+* Busca Google Drive y Google+ en la librería y habilita ambas API's.
+* Cambia los datos en el archivo .env por los datos de tus credenciales.
+
+```
+GOOGLE_APP_ID=TuGoogleAppID
+GOOGLE_CLIENT_ID=TuGoogleClientID
+GOOGLE_CLIENT_SECRET=TuGoogleClientSecret
+GOOGLE_REDIRECT=http://127.0.0.1:8000/login/google/callback
+```
 
 ## Contribuciones
 
